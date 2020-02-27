@@ -19,7 +19,7 @@ pipeline {
       }
       stage('Execute') {
          steps {
-            bat 'java -jar "c:/MVN/workspace/Micro_Pipeline_Slave/target/Micro_Academy-1.0-SNAPSHOT.jar"'
+            bat 'java -jar "C:/Program Files (x86)/Jenkins/workspace/task2/target/Micro_Academy-1.0-SNAPSHOT.jar"'
          }
       }
    }
