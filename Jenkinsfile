@@ -1,5 +1,5 @@
 pipeline {
-   agent {label 'Win_Server'}
+   agent none
 
    stages {
       stage('Compile') {
